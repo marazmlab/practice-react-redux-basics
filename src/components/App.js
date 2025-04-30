@@ -7,7 +7,7 @@ import Task03 from './../../03/Task03';
 import Task04 from './../../04/Task04';
 import Task05 from './../../05/Task05';
 
-import store from './../store';
+import store from '../redux/store';
 
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
             <Task02 />
             <Task03 />
             <Task04 />
-            {/* <Task05 /> */}
+            <Task05 />
         </Provider>
     )
 }
